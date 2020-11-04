@@ -1,0 +1,78 @@
+body {
+  background-color: #52d3e4;
+}
+
+/*positioning*/
+
+.start, .rules-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+/*styling for start button*/
+
+.start button {
+  font-size: 30px;
+  font-weight: 550;
+  color: #52d3e4;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background-color: rgb(85, 86, 87);
+}
+
+/*styling for rules box*/
+
+.rules-box {
+  display: none;
+  width: 600px;
+  background-color: rgb(85, 86, 87);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.rules-box .rules-title {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  font-size: 24px;
+  font-weight: 620;
+}
+
+.rules-box .rules-list {
+  padding: 20px 40px;
+}
+
+.rules-box .rules-list .rules {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.rules-box .rules-list .rules span {
+  font-weight: 500;
+  color: #52d3e4;
+}
+
+.rules-box .controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
