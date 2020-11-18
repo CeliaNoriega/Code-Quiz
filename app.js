@@ -3,7 +3,7 @@
 (function () {
   var sec = 60;
   function startTimer() {
-    console.log('timer suppose to go')
+    console.log('timer supposed to go')
     var timer = setInterval(function () {
       sec--;
       document.getElementById('timerDisplay').innerHTML = '00:' + sec;

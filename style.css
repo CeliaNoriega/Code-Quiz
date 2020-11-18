@@ -1,5 +1,5 @@
 body {
-  background-color: #52d3e4;
+  background-color: rgb(85, 86, 87);
 }
 
 /*positioning*/
@@ -20,7 +20,7 @@ body {
 .start button {
   font-size: 30px;
   font-weight: 550;
-  color: #52d3e4;
+  color: rgb(85, 86, 87);
   padding: 20px 40px;
   border: none;
   border-radius: 8px;
@@ -28,7 +28,7 @@ body {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  background-color: rgb(85, 86, 87);
+  background-color: #52d3e4;
 }
 
 /*styling for rules box*/
@@ -36,7 +36,8 @@ body {
 .rules-box {
   display: none;
   width: 600px;
-  background-color: rgb(85, 86, 87);
+  color: rgb(85, 86, 87);
+  background-color: #52d3e4;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -72,7 +73,4 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
-
-
 }
